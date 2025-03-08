@@ -19,10 +19,12 @@ body {
   border-radius: 10px;
 }
 .container p {
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: bolder;
   margin-bottom: 8px;
+ word-spacing: 4px;
   text-align: center;
+  color: #1741da;
 }
 .container input {
   padding: 10px;
