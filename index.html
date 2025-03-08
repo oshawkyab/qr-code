@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/images.png">
+
+</head>
+<body>
+    <div class="container">
+        <p>Enter Text or Url</p>
+        <input type="text" id="inp" placeholder="Write Text Or URL">
+        <div class="boximg" id="boximg">
+            <img src="" id="img">
+        </div>
+        <button onclick="GenerateQr()">Generate To QR Code</button>
+        <button id="reload" onclick="regen()">Regenerate To QR Code</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
